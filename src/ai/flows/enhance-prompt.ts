@@ -1,4 +1,4 @@
-'use server';
+'use server'; 
 
 /**
  * @fileOverview Enhances a given prompt by suggesting improvements based on common patterns and successful prompts.
