@@ -1,4 +1,4 @@
-import {genkit} from 'genkit';
+import {genkit} from 'genkit'; 
 import {googleAI} from '@genkit-ai/googleai';
 
 const apiKey = process.env.GOOGLE_GENAI_API_KEY;
