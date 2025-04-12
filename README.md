@@ -16,7 +16,7 @@
 *   **Prompt Management:** Save, organize, and reuse your favorite prompts.
 *   **Cross-Platform Support:** Works seamlessly on modern web browsers.
 *   **Light/Dark Mode:** Toggle between light and dark themes for comfortable use in any environment.
-*   **Genkit Integration:** Utilizes Genkit for backend AI operations, ensuring scalable and reliable performance.
+*   **Genkit Integration:** Utilizes Genkit for backend AI operations, ensuring scalable and reliable performance. 
 
 ## 🚀 Technologies Used
 
