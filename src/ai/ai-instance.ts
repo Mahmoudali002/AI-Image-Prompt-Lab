@@ -11,12 +11,22 @@ if (!apiKey) {
   throw new Error('GOOGLE_GENAI_API_KEY is not set');
 }
 
+let googleAIPlugin;
+
+try {
+  googleAIPlugin = googleAI({
+    apiKey,
+  });
+} catch (error) {
+  console.error('Error initializing Google AI plugin:', error);
+  throw new Error('Failed to initialize Google AI plugin');
+}
+
 export const ai = genkit({
   promptDir: './prompts',
   plugins: [
-    googleAI({
-      apiKey,
-    }),
+    googleAIPlugin,
   ],
   model: 'googleai/gemini-2.0-flash',
 });
+
